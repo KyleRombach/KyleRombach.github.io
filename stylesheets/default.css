@@ -41,12 +41,13 @@ header nav a {
    bottom: 0px;
    right: 0px;
   }
-}
  {
   height: 44px;
   width: 44px;
 }
 .icons {
+  width: 44px;
+  height: 44px;
   margin-right: 20px;
 }
 a {
