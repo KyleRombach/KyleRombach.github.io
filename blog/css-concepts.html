@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kyle Rombach CSS Concepts blog</title>
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+<body>
+<header>
+    <img src="#" alt="logo" />
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="/projects">Projects</a>
+      <a href="/resume">Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/aboutme">About Me</a>
+    </nav>
+  </header>
+<main>
+  <img id="picture" src="../imgs/website-picture.jpg" alt="Kyle Rombach"/>
+  <nav>
+    <a href="git.html">Git</a>
+    <a href="css-concepts.html">CSS Concepts</a>
+  </nav>
+<div id="blog">
+  <div class="line"><span id="blog-title">CSS Concepts</span></div>
+  <div class="line"><span id="date">1/17/2016</span>
+  </div>
+ </div>
+<article>
+<section>
+  Today I'm going to discuss using Classes vs ID's in CSS.
+  They both do the same thing however there is a certain time you should use each one.
+</section>
+<section>
+  First let's start with Classes. In order to write a class you would do element class="class name" in your HTML. Then in your CSS you would write .classname { styling inside here}. You can use class on multiple elements and have variations on the same element as well. These two reasons are why you want to use class when applying styling to to multiple things.
+</section>
+<section>
+  Heres an example of what your coding could look like.
+  <img class="blogpic" src="../../imgs/classes.png" alt="Classes"/>
+</section>
+<section>
+  So now we know what Classes are used for let's talk about using ID's. ID's are very specific, in fact each element can only have one ID and your page can only have one element that has that ID. ID's are only to be used when you have to change one thing. You can't have multiple ID's within eachother.
+</section>
+<section>
+Heres an example of what your coding could like.
+<img class="blogpic" src="../../imgs/ids.png" alt="ID's"/>
+</section>
+<section>
+Now that you guys have an idea of what a Class and ID is, hopefully you understand when you use each one. Just remember Classes are meant to be used on multiple objects and ID's are one use only.
+</section>
+</article>
+<footer>
+  <span id="smaller-name">Kyle Rombach - Developer</h2>
+    <span>
+    <a class="icons" href ="https://www.facebook.com/kyle.rombach">
+    <img src=" ../imgs/facebook-icon.png" alt="Facebook icon" height="44" width="44"></a>
+    <a class="icons" href="https://twitter.com/Kyyyyyyylee">
+    <img src="../imgs/twitter-icon.png" alt="Twitter logo" height="44" width="44"></a>
+    <a class="icons" href="https://www.linkedin.com/in/kylerombach">
+    <img src="../imgs/linkedIn-logo.png" alt="LinkedIn logo"
+    height ="44" width="44"></a>
+    <a class="icons" href="https://github.com/KyleRombach">
+    <img src="../imgs/github-logo.png" alt="GitHub logo" height="44" width="44"></a>
+    <a class="icons" href="mailto:krom5658gmail.com">Contact Me</a>
+  </span>
+</footer>
+</main>
+</body>
+</html>
