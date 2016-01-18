@@ -12,7 +12,10 @@ main nav a {
 .line {
   text-align: center;
 }
-
+.blogpic {
+  width: 400px;
+  height: 400px;
+}
 }
 #blog-title {
   font-size: 30px;
