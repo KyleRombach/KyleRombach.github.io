@@ -4,12 +4,15 @@ main nav {
   top: 20%;
 }
 main nav a {
+  display: inline;
   font-size: 30px;
   text-decoration: underline;
 }
 
 .line {
   text-align: center;
+}
+
 }
 #blog-title {
   font-size: 30px;
@@ -23,5 +26,5 @@ main nav a {
   left: 20%;
   margin-top: 2%;
   width: 800px;
-  height: 700px;
+  height: 800px;
   font-family: cursive;
