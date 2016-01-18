@@ -36,7 +36,7 @@ header nav a {
   position: fixed;
   bottom: 0px;
 }
- footer span span {
+ .iconplace {
    position: fixed;
    bottom: 0px;
    right: 0px;
