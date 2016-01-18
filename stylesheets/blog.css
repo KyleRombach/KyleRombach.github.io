@@ -14,14 +14,14 @@ main nav a {
 }
 .blogpic {
   width: 800px;
-  height: 600px;
+  height: 800px;
 }
 }
-#blog-title {
+.blog.title {
   font-size: 30px;
   font-weight: bold;
 }
-#date {
+.date {
   font-weight: bold;
 }
 #blog {
