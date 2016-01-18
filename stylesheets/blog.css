@@ -13,7 +13,7 @@ main nav a {
   text-align: center;
 }
 .blogpic {
-  width: 800px;
+  width: 900px;
   height: 800px;
 }
 }
@@ -26,8 +26,8 @@ main nav a {
 }
 #blog {
   position: relative;
-  left: 20%;
+  left: 15%;
   margin-top: 2%;
-  width: 800px;
+  width: 900px;
   height: 800px;
   font-family: cursive;
