@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kyle Rombach Arrays and Hashes</title>
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+<body>
+<header>
+    <img src="#" alt="logo" />
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="/projects">Projects</a>
+      <a href="/resume">Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="/aboutme">About Me</a>
+    </nav>
+  </header>
+<main>
+  <img id="picture" src="../imgs/website-picture.jpg" alt="Kyle Rombach"/>
+  <nav>
+    <ul>
+      <li><a href="git.html">Git</a></li>
+      <li><a href="css-concepts.html">CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html">Arrays and Hashes</a></li>
+    </ul>
+  </nav>
+<div id="blog">
+  <div class="line"><span class="blog title">Arrays and Hashes</span></div>
+  <div class="line"><span class="date">1/26/2016</span>
+  </div>
+<article>
+<p>
+  What is an array you ask? Well an array is a structure used in Ruby to store items. These items can be strings, numbers, or even more arrays! Each stored item will be assigned an index number and just so you know the first one always is zero not one. Imagine you write a shopping list and that's what an array is. The order you put things in doesn't matter when you perform methods (functions used for Ruby) unless you are specifally using the index order. The cool thing with arrays is you can using a type of method called an interation. An iteration is just a method that will loop and act on each stored variable that it was defined to work on. Let me show you an example of what an array looks like.
+</p>
+<p>
+  <script src="https://gist.github.com/KyleRombach/7a76c34ca5004a5ea4ff.js"></script>
+  <noscript>
+    <pre>
+        array = [1, 2, 3, 4, 5, 6,]
+        array.each do |x|
+        p 'We are adding one to ' + x.to_s
+        p x + 1
+        end
+
+        puts array[2]
+
+        "We are adding one to 1"
+        2
+        "We are adding one to 2"
+        3
+        "We are adding one to 3"
+        4
+        "We are adding one to 4"
+        5
+        "We are adding one to 5"
+        6
+        "We are adding one to 6"
+        7
+        3
+      </pre>
+    </noscript>
+</p>
+<p> So now you should have a basic idea of how arrays work and how to use them. You notice it goes in order of what I tell it to print out and then goes to the next number in the array. Also like I mentioned earlier the index starts at zero so thats why when I did array[2] we got 3.
+  <p> Now let's talk about hashes. Hashes are very similiar to arrays but they have some slight differences. With a hash you have a specific key assigned to the variable. So instead of it just being 1 it could be :number_one => 1. Now the program knows that when I use the symbol :number_one, it should give me 1. With these keys (which can be strings as well, but symbols are processed faster) however you can have only one of each. They are unique but you can assign multiple variables to them. For instance, like the grocery list example, you could have meats as a key and then assign ham, steak, and chicken, which would all compute for meats. There isn't a number index for hashes instead you just use the key assigned. Let's shown an example of hashes.</p>
+  <p>
+    <script src="https://gist.github.com/KyleRombach/bb92d5a059f10a54b9b0.js"></script>
+    <noscript>
+      <pre>
+                my_hash = {
+        :name => 'Kyle Rombach',
+        :hometown => 'Vallejo',
+        :state => 'CA',
+        :age => 25,
+        :hometown => 'Benicia'
+        }
+
+        my_hash.each_key  { |k| puts k.to_s }
+        my_hash.fetch(:hometown)
+
+        name
+        hometown
+        state
+        age
+        => "Benicia
+  </pre>
+</noscript>
+</p>
+<p> So here you can see I made my keys and assigned them values. When I did the method each_key it gave me all the keys inside my created hash. Since I used symbols however to make them look nice I used the .to_s method (which just converts it to a string.) I assigned multiple values to :hometown and when I fetched it, it gave me the last one entered.
+</p>
+<p>
+Now you know a little more about what Arrays and Hashes are. You can see that they are both lists but I would say hashes can be more organized. It's nice having values assigned to specific keys and remembering those instead of trying to remember the index. They both have their pluses and minuses depending on what you are doing and are a huge part in coding for Ruby.
+</p>
+</article>
+</main>
+</div>
+<footer>
+  <span id="smaller-name">Kyle Rombach - Developer</span>
+    <span class="iconplace">
+    <a href ="https://www.facebook.com/kyle.rombach">
+    <img class="icons" src="../imgs/facebook-icon.png" alt="Facebook icon"></a>
+    <a href="https://twitter.com/Kyyyyyyylee">
+    <img class="icons" src="../imgs/twitter-icon.png" alt="Twitter logo">
+    </a>
+    <a href="https://www.linkedin.com/in/kylerombach">
+    <img class="icons" src="../imgs/linkedIn-logo.png" alt="LinkedIn logo"
+    ></a>
+    <a  href="https://github.com/KyleRombach">
+    <img class="icons" src="../imgs/github-logo.png" alt="GitHub logo" >
+    </a>
+    </div>
+    <a href="mailto:krom5658gmail.com">Contact Me</a>
+  </span>
+</footer>
+</main>
+</body>
+</html>
