@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+<body>
+<header>
+    <img src="#" alt="logo" />
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href=#>Projects</a>
+      <a href=#>Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href=#>About Me</a>
+    </nav>
+  </header>
+<main>
+  <img id="picture" src="../imgs/website-picture.jpg" alt="Kyle Rombach"/>
+  <nav>
+    <ul>
+      <li><a href="git.html">Git</a></li>
+      <li><a href="css-concepts.html">CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html">Arrays &amp; Hashes
+      </a></li>
+      <li><a href="issues-in-tech-blog.html">Accessibility
+      </a></li>
+      <li><a href="enumerable-methods.html">Enumerable#map
+      </a></li></ul>
+  </nav>
+<div id="blog">
+  <div class="line"><span class="blog title">Enumerable#map</span></div>
+  <div class="line"><span class="date">2/1/2016</span>
+  </div>
+<article>
+<section>
+  <p> Let's talk first what about what Enumerables are. They are methods that we use to change and sort our Arrays and Hashes. They allow you to change these in a more streamlined fashion. They must use an each iterator becuase they need to work throughout the entire collector.
+  </p>
+  <p>
+    We are gonna learn about what the Enumerable map does.Map allows use to take an Array or Hash and then make a new one based on what we set the block to. Since all we are doing is editing the elements the array length should return the same. If you use the map! method it will do the the same thing but instead of just proccessing the original and printing a new one, it will actually edit the original so the array or hash is now set to the new values.
+  </p>
+  <p>
+    <script src="https://gist.github.com/KyleRombach/dd7cd59d989d46f500f0.js"></script>
+      <noscript>
+        <pre>
+          [10, 12, 14, 16,  18, 20].map { |x| x / 2 }
+
+          names = ["Tom", "Sylvester", "Garfield", "Simba"]
+          p names
+
+          names.map! { |names| names + " is a famous animated cat" }
+          p names
+
+          [5, 6, 7, 8, 9, 10]
+
+          ["Tom", "Sylvester", "Garfield", "Simba"]
+          ["Tom", "Sylvester", "Garfield", "Simba"]
+
+          ["Tom is a famous animated cat", "Sylvester is a famous animated cat", "Garfield is a famous animated cat", "Simba is a famous animated cat"]
+          ["Tom is a famous animated cat", "Sylvester is a famous animated cat", "Garfield is a famous animated cat", "Simba is a famous animated cat"]
+        </pre>
+      </noscript>
+    </p>
+    <p> So you can see here from the examples that when I mapped the array of numbers and set the block to divide them by two, it will return a new array with those results. Then for the names array you can see how I was able to edit the strings and also made a permanent change to the array. When I called the array after the map! proccess it only gave me the results of the new array. These are just some basic examples of how to use the map method and you can learn even more ways to implement it with different blocks.
+    </p>
+</section>
+</article>
+</main>
+</div>
+<footer>
+  <span id="smaller-name">Kyle Rombach - Developer</span>
+    <span class="iconplace">
+    <a href ="https://www.facebook.com/kyle.rombach">
+    <img class="icons" src="../imgs/facebook-icon.png" alt="Facebook icon"></a>
+    <a href="https://twitter.com/Kyyyyyyylee">
+    <img class="icons" src="../imgs/twitter-icon.png" alt="Twitter logo">
+    </a>
+    <a href="https://www.linkedin.com/in/kylerombach">
+    <img class="icons" src="../imgs/linkedIn-logo.png" alt="LinkedIn logo"
+    ></a>
+    <a  href="https://github.com/KyleRombach">
+    <img class="icons" src="../imgs/github-logo.png" alt="GitHub logo" >
+    </a>
+    </div>
+    <a href="mailto:krom5658gmail.com">Contact Me</a>
+  </span>
+</footer>
+</main>
+</body>
+</html>
