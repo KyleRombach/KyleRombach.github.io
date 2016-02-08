@@ -11,19 +11,17 @@ main nav a {
 
 .line {
   text-align: center;
+  font-weight: bold;
 }
 .blogpic {
   width: 900px;
   height: 800px;
 }
 }
-.blog.title {
+.blog_title {
   font-size: 30px;
-  font-weight: bold;
 }
-.date {
-  font-weight: bold;
-}
+
 #blog {
   position: relative;
   left: 15%;
