@@ -1,0 +1,13 @@
+.line {
+  text-align: center;
+  font-size: 30px;
+
+
+}
+#about {
+  position: relative;
+  left: 15%;
+  margin-top: 2%;
+  width: 900px;
+  height: 800px;
+  font-family: cursive;
