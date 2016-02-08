@@ -1,13 +1,13 @@
 .line {
   text-align: center;
   font-size: 30px;
-
+  font-weight: bold;
 
 }
 #about {
   position: relative;
   left: 15%;
-  margin-top: 2%;
+  margin-top: 15%;
   width: 900px;
   height: 800px;
   font-family: cursive;
