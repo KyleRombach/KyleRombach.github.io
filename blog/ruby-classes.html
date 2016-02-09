@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+<body>
+<header>
+    <img src="#" alt="logo" />
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href=#>Projects</a>
+      <a href=#>Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="../../about.html">About Me</a>
+    </nav>
+  </header>
+<main>
+  <img id="picture" src="../imgs/website-picture.jpg" alt="Kyle Rombach"/>
+  <nav>
+    <ul>
+      <li><a href="git.html">Git</a></li>
+      <li><a href="css-concepts.html">CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html">Arrays &amp; Hashes
+      </a></li>
+      <li><a href="issues-in-tech-blog.html">Accessibility
+      </a></li>
+      <li><a href="enumerable-methods.html">Enumerable#map
+      </a></li>
+      </ul>
+  </nav>
+<div id="blog">
+  <div class="line"><span class="blogtitle">Ruby Classes</span></div>
+  <div class="line">2/8/2016</div>
+<article>
+<section>
+<p> Today I'm gonna teach you the basics about a Ruby Class. A Ruby Class allows us to define methods to be used for working on an object but we can create new instances of the object when we want to use different data. This new instance is also completely seperate from other objects made. I'll show an example here and then explain what is happening.</p>
+<p>
+  <script src="https://gist.github.com/KyleRombach/83e80332fc3c4d3e6aab.js"></script>
+    <noscript>
+      <pre>
+           Class Information
+
+            def initialize(age, name, hometown)
+              @age = age
+              @name = name
+              @hometown = hometown
+            end
+
+            def print_info
+              puts "Hello #{@name}! You are #{@age} and you live in #{@hometown}."
+              end
+            end
+
+            info = Information.new(25, "Kyle", "Vallejo")
+            info.print_info
+
+        Hello Kyle! You are 25 and you live in Vallejo.
+    </pre>
+  </noscript>
+  </p>
+  <p>
+    So first you can see I defined my class to be class Information. Next you want to define an initiliaze to determine what variables are going to be used. For my information I want to have age, name, and hometown. This is where you start to see something new for our variables. I want to be able to use them in other methods in my class so I have to label them as an instance variable. In order to label something as an instance variable you just have to put an @ symbol in front of it. Now that we've gotten our variables set up we can move on to the next method. Here I want to print a string with the data that is given. By using #{@instance_variable} I can have the variable be called and then transformed into a string. So now I want to pass some data through to see if my class works. I assign info to be Information.new which tells Ruby to run the class and make a new instance. After I give it my values I want assigned to my variables. Finally after getting the info setup I can think call on my print_info method to run and get my string to print out. There's a lot more to classes but here is a good start to figure out some of the capabailities you have using one.
+    </p>
+</section>
+</article>
+</main>
+</div>
+<footer>
+  <span id="smaller-name">Kyle Rombach - Developer</span>
+    <span class="iconplace">
+    <a href ="https://www.facebook.com/kyle.rombach">
+    <img class="icons" src="../imgs/facebook-icon.png" alt="Facebook icon"></a>
+    <a href="https://twitter.com/Kyyyyyyylee">
+    <img class="icons" src="../imgs/twitter-icon.png" alt="Twitter logo">
+    </a>
+    <a href="https://www.linkedin.com/in/kylerombach">
+    <img class="icons" src="../imgs/linkedIn-logo.png" alt="LinkedIn logo"
+    ></a>
+    <a  href="https://github.com/KyleRombach">
+    <img class="icons" src="../imgs/github-logo.png" alt="GitHub logo" >
+    </a>
+    </div>
+    <a href="mailto:krom5658gmail.com">Contact Me</a>
+  </span>
+</footer>
+</main>
+</body>
+</html>
