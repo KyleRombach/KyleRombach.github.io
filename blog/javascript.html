@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+<body>
+<header>
+    <img src="#" alt="logo" />
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../projects/index.html">Projects</a>
+      <a href=#>Resume</a>
+      <a href="/blog/index.html">Blog</a>
+      <a href="../../about.html">About Me</a>
+    </nav>
+  </header>
+<main>
+  <img id="picture" src="../imgs/website-picture.jpg" alt="Kyle Rombach"/>
+  <nav>
+    <ul>
+      <li><a href="git.html">Git</a></li>
+      <li><a href="css-concepts.html">CSS Concepts</a></li>
+      <li><a href="arrays-hashes.html">Arrays &amp; Hashes
+      </a></li>
+      <li><a href="issues-in-tech-blog.html">Accessibility
+      </a></li>
+      <li><a href="enumerable-methods.html">Enumerable#map
+      </a></li>
+      <li><a href="ruby-classes.html">Ruby Classes
+      </a>
+    <li><a href="javascript.html">JavaScript</li></a>
+      </ul>
+  </nav>
+<div id="blog">
+  <div class="line"><span class="blogtitle">JavaScript</span></div>
+  <div class="line">2/16/2016</div>
+<article>
+<section>
+  <p>
+In Ruby you use Hashes as one way to store information. In JavaScript they have something similar but a little different called an object. With a Hash you set a key and give it a value. It would look like this.
+  </p>
+  <p>
+    hash = { key1: 'one', key2: 'two', key3: 'three'}
+  </p>
+  <p> In JavaScript the object will look similar but with a slight difference. You have to add var in front of the object you are creating.
+  </p>
+  <p>
+   var hash = { key1: 'one', key2: 'two', key3: 'three'}
+ </p>
+ <p>
+  As you can see they look pretty much the same minus adding the variable in the front. Now how you access the information stored is pretty different. First lets see how you would access it in Ruby. Next I'll show how you access it in JavaScript.
+</p>
+<p>
+  hash[:key1] --> 'one'
+</p>
+<p>hash.key1 --> 'one'
+</p>
+<p> As you can see they are similar with some minor differences. You call on the hash to get the value of the key. For those of you who don't know also with the :key1 syntax, that means I made the key a symbol. You have the option to have a key be a string as well (i.e. 'key1'). These both work but symbols will load faster. For JavaScript you use the dot method to access the value of the object.You can also store Arrays as a value for either a Hash or Object but that is something that we will talk about later. This is just a simple difference between Hashes and Objects are there are some other factors to take into account as well.
+  </p>
+ </section>
+</article>
+</main>
+</div>
+<footer>
+  <span id="smaller-name">Kyle Rombach - Developer</span>
+    <span class="iconplace">
+    <a href ="https://www.facebook.com/kyle.rombach">
+    <img class="icons" src="../imgs/facebook-icon.png" alt="Facebook icon"></a>
+    <a href="https://twitter.com/Kyyyyyyylee">
+    <img class="icons" src="../imgs/twitter-icon.png" alt="Twitter logo">
+    </a>
+    <a href="https://www.linkedin.com/in/kylerombach">
+    <img class="icons" src="../imgs/linkedIn-logo.png" alt="LinkedIn logo"
+    ></a>
+    <a  href="https://github.com/KyleRombach">
+    <img class="icons" src="../imgs/github-logo.png" alt="GitHub logo" >
+    </a>
+    </div>
+    <a href="mailto:krom5658gmail.com">Contact Me</a>
+  </span>
+</footer>
+</main>
+</body>
+</html>
