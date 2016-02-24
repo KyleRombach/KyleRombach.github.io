@@ -37,7 +37,6 @@
   background-color: #E5E4E2;
 }
 
-#body header span {
-  width: 100%;
-  text-align: center;
+#body article {
+  background-color: white;
 }
