@@ -31,11 +31,13 @@
 }
 
 #left span {
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
+  background-color: #E5E4E2
 }
 
 #right span {
-  text-align: center;
+  text-align: justify;
   font-size: 20px;
+  background-color: #E5E4E2
 }
