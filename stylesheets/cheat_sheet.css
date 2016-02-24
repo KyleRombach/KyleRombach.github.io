@@ -6,11 +6,11 @@
   height: 800px;
   font-family: cursive;
   border-style: solid;
+  background: white;
 }
 
 #title {
   text-align: center;
-  background: white;
   border-bottom-style: solid;
   height: 10%;
   font-size: 50px;
@@ -37,5 +37,5 @@
 }
 
 #body header span {
-  text-align: center;
+  margin-left: 45%;
 }
