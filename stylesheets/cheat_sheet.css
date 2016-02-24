@@ -1,8 +1,9 @@
 #body {
   position: relative;
   left: 5%;
-  margin-top: 5%;
+  margin-top: 10%;
   width: 900px;
   height: 800px;
   font-family: cursive;
+  border-style: solid;
 }
