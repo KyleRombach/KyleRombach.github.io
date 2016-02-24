@@ -20,11 +20,13 @@
   float: left;
   border-right-style: solid;
   width: 45%;
+  height: 100%;
 }
 
 #right {
   position: relative;
   float: right;
-  border-right-style: solid;
+  border-right-left: solid;
   width: 45%;
+  height: 100%;
 }
