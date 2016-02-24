@@ -30,7 +30,6 @@
 }
 
 .ctitle span {
-  width: 47%;
-  text-align: center;
+  text-align: justify;
   font-size: 30px;
 }
