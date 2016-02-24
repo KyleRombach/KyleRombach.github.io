@@ -16,16 +16,15 @@
   font-size: 50px;
 }
 #left {
-  clear: top;
   float: left;
-  border-right-style: solid;
+  border-style: solid;
   width: 47%;
   height: 90%;
 }
 
 #right {
   float: right;
-  border-right-left: solid;
+  border-style: solid;
   width: 47%;
   height: 90%;
 }
