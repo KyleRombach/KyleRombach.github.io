@@ -17,19 +17,19 @@
 }
 #left {
   float: left;
-  border-style-right: solid;
+  border-right-style: solid;
   width: 47%;
   height: 90%;
 }
 
 #right {
   float: right;
-  border-style-left: solid;
+  border-left-style: solid;
   width: 47%;
   height: 90%;
 }
 
-.cheatsheet_title {
+.ctitle span {
   text-align: center;
   font-size: 20px;
 }
