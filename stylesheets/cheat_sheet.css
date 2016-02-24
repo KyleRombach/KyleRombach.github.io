@@ -33,11 +33,13 @@
 #left span {
   text-align: justify;
   font-size: 20px;
-  background-color: #E5E4E2
+  background-color: #E5E4E2;
+  width: 100%;
 }
 
 #right span {
   text-align: justify;
   font-size: 20px;
-  background-color: #E5E4E2
+  background-color: #E5E4E2;
+  width: 100%;
 }
