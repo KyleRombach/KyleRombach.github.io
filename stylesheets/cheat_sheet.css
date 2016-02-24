@@ -17,14 +17,14 @@
 }
 #left {
   float: left;
-  border-style: solid;
+  border-style-right: solid;
   width: 47%;
   height: 90%;
 }
 
 #right {
   float: right;
-  border-style: solid;
+  border-style-left: solid;
   width: 47%;
   height: 90%;
 }
