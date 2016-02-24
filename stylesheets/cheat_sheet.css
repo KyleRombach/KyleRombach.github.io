@@ -31,7 +31,11 @@
 }
 
 #body header {
-  margin-left: 45%;
   font-size: 30px;
   border-bottom-style: solid;
+  background-color: #E5E4E2;
+}
+
+#body header span {
+  text-align: center;
 }
