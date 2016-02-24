@@ -30,16 +30,8 @@
   height: 90%;
 }
 
-#left span {
+#body header {
   text-align: justify;
-  font-size: 20px;
-  background-color: #E5E4E2;
-  width: 100%;
-}
-
-#right span {
-  text-align: justify;
-  font-size: 20px;
-  background-color: #E5E4E2;
-  width: 100%;
+  font-size: 30px;
+  border-bottom-style: solid;
 }
