@@ -23,14 +23,22 @@ header nav a {
   top: 40%;
   margin-left: 10%;
 }
-#picture {
-  position: fixed;
-  height: 180px;
-  width: 117.6px;
-  float: right;
+
+#myDiv
+{
+ position: fixed;
+  height:104px;
+  width:140px;
   top: 20%;
   right: 0px;
   margin-right: 10%;
+  position: fixed;
+}
+
+#picture {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
 }
 #smaller-name {
   font-family: 'Poiret One', Cursive;
