@@ -40,3 +40,10 @@
 #body article {
   background-color: white;
 }
+
+#body code {
+  background-color: #E5E4E2;
+  border-bottom-style: solid;
+  border-top: solid;
+  width: 100%;
+}
