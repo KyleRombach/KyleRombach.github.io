@@ -39,9 +39,14 @@
 
 #body article {
   background-color: white;
+  text-decoration: underline;
+  font-weight: bold;
 }
+
 
 #body code {
   background-color: #E5E4E2;
   width: 100%;
+  text-decoration: none;
+  font-weight: normal;
 }
