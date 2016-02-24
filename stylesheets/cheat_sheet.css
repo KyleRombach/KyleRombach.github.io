@@ -39,6 +39,7 @@
 
 #body article {
   background-color: white;
+  text-decoration: underline;
 }
 
 #body code {
