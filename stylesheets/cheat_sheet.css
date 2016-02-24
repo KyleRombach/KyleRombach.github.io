@@ -25,13 +25,13 @@
 
 #right {
   float: right;
-  border-right-left: solid;
+  border-left-style: solid;
   width: 47%;
   height: 90%;
 }
 
 #body header {
-  text-align: justify;
+  margin-left: 45%;
   font-size: 30px;
   border-bottom-style: solid;
 }
