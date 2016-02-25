@@ -2,8 +2,8 @@
   position: relative;
   left: 2%;
   margin-top: 4%;
-  width: 1100px;
-  height: 920px;
+  width: 60%;
+  height: 60%;
   font-family: cursive;
   border-style: solid;
   background: black;
@@ -13,7 +13,7 @@
   text-align: center;
   border-bottom-style: solid;
   height: 10%;
-  font-size: 50px;
+  font-size: 3em;
   background: white;
 }
 #left {
@@ -32,7 +32,7 @@
 }
 
 #body header {
-  font-size: 30px;
+  font-size: 2em;
   border-bottom-style: solid;
   background-color: #E5E4E2;
 }
@@ -44,7 +44,6 @@
 
 
 #body article code {
-  width: 517px;
   background-color: #E5E4E2;
   font-weight: normal;
 }
