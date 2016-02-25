@@ -6,7 +6,7 @@ main nav {
 }
 main nav a {
   display: inline;
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: underline;
 }
 

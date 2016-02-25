@@ -20,14 +20,14 @@
   clear: top;
   float: left;
   border-right-style: solid;
-  width: 47%;
+  width: 50%;
   height: 90%;
 }
 
 #right {
   float: right;
   border-left-style: solid;
-  width: 47%;
+  width: 50%;
   height: 90%;
 }
 
