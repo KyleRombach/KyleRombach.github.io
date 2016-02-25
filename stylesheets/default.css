@@ -30,8 +30,7 @@ header nav a {
   height: 50%;
   width: 40%;
   top: 20%;
-  right: 0px;
-  padding-right: 1%;
+  margin-left: 60%;
 }
 
 #picture {
