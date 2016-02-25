@@ -6,7 +6,6 @@
   height: 100%;
   font-family: cursive;
   border-style: solid;
-  background: black;
   padding-bottom: 2%;
 }
 
@@ -23,6 +22,7 @@
   border-style: solid;
   width: 48%;
   height: 90%;
+  border-right-width: 2%;
 }
 
 #right {
