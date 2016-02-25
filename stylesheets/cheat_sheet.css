@@ -18,14 +18,14 @@
   clear: top;
   float: left;
   border-style: solid;
-  width: 49.5%;
+  width: 49%;
   height: 90%;
 }
 
 #right {
   float: right;
   border-style: solid;
-  width: 49.5%;
+  width: 49%;
   height: 90%;
 }
 
