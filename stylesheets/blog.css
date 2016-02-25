@@ -16,8 +16,8 @@ main nav a {
   font-weight: bold;
 }
 .blogpic {
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
 }
 }
 .blogtitle {
@@ -25,9 +25,9 @@ main nav a {
 }
 
 #blog {
-  position: fixed;
+  position: relative;
   margin-top: 2%;
-  margin-left: 5%;
-  width: 50%;
-  height: 50%;
+  margin-left: 10%;
+  width: 45%;
+  height: 45%;
   font-family: cursive;
