@@ -26,11 +26,10 @@ header nav a {
 
 #myDiv
 {
- position: fixed;
+  position: relative;
   height: 50%;
   width: 40%;
   top: 20%;
-  margin-left: 20%;
   float: right;
 }
 

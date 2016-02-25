@@ -24,9 +24,9 @@ main nav a {
 }
 
 #blog {
+  float: left;
   position: relative;
-  left: 15%;
   margin-top: 2%;
-  width: 900px;
-  height: 800px;
+  width: 50%;
+  height: 50%;
   font-family: cursive;
