@@ -7,7 +7,7 @@ main nav {
 }
 main nav a {
   display: inline;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: underline;
 }
 
@@ -31,3 +31,5 @@ main nav a {
   width: 45%;
   height: 45%;
   font-family: cursive;
+  padding-bottom: 2%;
+}
