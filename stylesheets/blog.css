@@ -3,10 +3,11 @@ main nav {
   left:1%;
   top: 20%;
   float: left;
+  width: 5%;
 }
 main nav a {
   display: inline;
-  font-size: 1em;
+  font-size: 2em;
   text-decoration: underline;
 }
 
